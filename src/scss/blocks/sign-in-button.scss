@@ -1,0 +1,27 @@
+.sign-in-button__img{
+    width: 32px;
+    height: 32px;
+}
+.sign-in-button__circle{
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+}
+.sign-in-button__item-name{
+    font-weight: 400;
+    font-size: 15px;
+    color: #F5F5F5;
+    @include media-xl-max{
+        display: none;
+    }
+    @include media-lg-max{
+        display: none;
+    }
+    @include media-md-max{
+        display: none;
+    }
+    @include media-sm-max{
+        display: none;
+    }
+}

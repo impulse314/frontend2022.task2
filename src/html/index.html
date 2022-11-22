@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница</title>
+    <link rel="stylesheet" href="assets/css/main.css"> 
+</head>
+<body class="page">
+    <header class="page__header">
+            <div class="container">
+                <nav class="navigation">   
+                    <div class="navigation__menu">
+
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <div class='menu-button'></div>
+                        </label> 
+                        <div><img src="assets/images/logo 1.svg" class="navigation__img" alt="Логотип ИКИТ"></div>
+
+                        <ul class="navigation__list menu">
+                            <li class="navigation__item--active"><a href="#">Главная</a></li>
+                            <li class="navigation__item"><a href="#">Информация</a></li>
+                            <li class="navigation__item"><a href="#">Новости</a></li>
+                            <li class="navigation__item"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="navigation__user sign-in-button">
+                        <a class="sign-in-button__item-name" href="#">Ваше имя</a>
+                        <a class="sign-in-button__item" href="#">
+                            <div class="sign-in-button__circle">
+                                <img class="sign-in-button__img" src="assets/images/sign-in.png" alt="Иконка человека">
+                            </div>  
+                        </a>
+                    </div>
+                </nav>
+            </div>  
+    </header>
+    
+    <div class="page__main container">
+        <h1 class="page__title">Личная страница</h1>
+        <h2 class="page__subtitle">Полезная информация</h2>
+        <div class="usefull-info">
+            <article class="usefull-info-left">
+                <div class="usefull-info-left__search">
+                    <div class="usefull-info-left__text">
+                        <input id="category-name-text" type="text" />
+                    </div>
+                    <div class="usefull-info-left__button">
+                        <button id="category-name-button" >Поиск</button>
+                    </div>
+                    
+                </div>
+                <h2 class="usefull-info-left__title">Категории</h2>
+                <ul class="usefull-info-left__list">
+                    <li class="usefull-info-left__item">Список 1</li>
+                    <li class="usefull-info-left__item">Список 2</li>
+                    <li class="usefull-info-left__item">Список 3</li>
+                    <li class="usefull-info-left__item">Список 4</li>
+                </ul>
+            </article>
+            <article class="usefull-info-right">
+                <h2 class="usefull-info-right__title">Самое читаемое</h2>
+                <div class="usefull-info-right__text-block">
+                    <h3 class="usefull-info-right__subtitle">Первый снег и гололед: о чем нужно помнить водителю</h3>
+                    <p class="usefull-info-right__text">Зимняя езда гораздо сложнее летней — даже на современном автомобиле. Особенно если «зима настала неожиданно».
+                    </p>
+                </div>
+                <div class="usefull-info-right__text-block">
+                    <h3 class="usefull-info-right__subtitle">ДТП при обгоне через сплошную: кто будет виноват? Отвечает юрист.</h3>
+                    <p class="usefull-info-right__text">Начал обгон на прерывистой. Когда сровнялся с обгоняемым автомобилем была сплошная, а он, не смотря по зеркалам, решил тоже через сплошную пойти на обгон впередидущей машины и столкнулся со мной. Кто будет виноват по страховке?
+                    </p>
+                </div>
+            </article>
+        </div>
+            
+        <div class="container">
+            <h2 class="page__title-two">Полезные статьи</h2>
+            <div class="icons">
+                <button class="icon__button" id="icon__list-button">
+                    <svg  viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.5 6H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 12H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 18H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 6H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 12H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 18H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </button>
+                <button class="icon__button icon__button--active" id="icon__grid-button">
+                    <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 3H3.5V10H10.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 3H14.5V10H21.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 14H14.5V21H21.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.5 14H3.5V21H10.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </button>
+            </div>
+
+            <div class="article">
+                <article class="article-content">
+                    <img class="article__img" src="assets/images/0dcccf6ecaa5dc1_875x440.jpg" alt="Шины">
+                    <div class="article__content">
+                        <div class="article__wrapper">
+                            <h3 class="article__title">Гид по зимним шинам: что купить в 2022 году. Обзор и цены 55 моделей с шипами и без.</h3>
+                            <p class="article__text">Еще и «бабьего лета» толком не было, но подумать о том, как будем справляться с зимними дорогами, уже стоит. Определенные подсказки в выборе зимних шин может дать наш традиционный обзор.</p>
+                        </div>
+                        <footer>
+                            <p class="article__date">Mar 16, 2020 · 6 min read</p>
+                        </footer>
+                    </div>
+                </article>
+                <article class="article-content">
+                    <img class="article__img" src="assets/images/61490515545eabc_875x440.jpg" alt="Приборная панель">
+                    <div class="article__content">
+                        <div class="article__wrapper">
+                            <h3 class="article__title">Чем опасен городской режим для двигателя. Как короткие дистанции убивают двигатель?</h3>
+                            <p class="article__text">Чем рискуем в городском трафике? Отвечая на этот вопрос многие подумают о нервных клетках, которые, как утверждают некоторые ученые не восстанавливаются.</p>    
+                        </div>
+                        <footer>
+                            <p class="article__date">Mar 10, 2020 · 4 min read</p>
+                        </footer>
+                    </div>
+                </article>
+                <article class="article-content">
+                    <img class="article__img" src="assets/images/3f3705272314082_875x440.jpg" alt="Тефлон">
+                    <div class="article__content">
+                        <div class="article__wrapper">
+                            <h3 class="article__title">На кухне и в гараже: зачем автомобилистам тефлон</h3>
+                            <p class="article__text">У многих тефлон ассоциируется исключительно с антипригарным покрытием. Но отделять продукты от сковороды — это лишь одно из его свойств. Он прекрасно отталкивает грязь, воду, жир. Поэтому нашел применение в обслуживании автомобилей в качестве смазки.</p>    
+                        </div>
+                        <footer>
+                            <p class="article__date">Feb 12, 2020 · 11 min read</p>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+
+            <div class="article-add">
+                <div class="article-add__button">
+                    <button class="article-add__button-add" id="article-add__button">Добавить</button>
+                </div>
+                <form class="article-add__form form" onsubmit="return false;">
+                    <div class="form__inputs">
+                        <label id="article-text__name" class="article-text-name">Название статьи</label>
+                        <input type="text" id="article-text-name">
+                        <label id="article-text__url" class="article-text-url">Ссылка на картинку</label>
+                        <input type="text" id="article-text-url">
+                        <label id="article-text__description" class="article-text__description">Описание</label>
+                        <textarea id="article-text-description"></textarea>
+                        <div class="form__buttons">
+                            <button type="reset" class="article-add__button-cancel" id="article-add__button-cancel">Отмена</button>
+                            <button type="submit" class="article-add__button-create" id="article-add__button-create">Создать</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="faq container" id="faq">
+                <h3 class="faq-title">FAQ</h2>
+                <dl class="faq-page">
+                    <dt class="faq-page__question">Вопрос №0: ????????</dt>
+                    <dd class="faq-page__answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</dd>
+        
+                    <dt class="faq-page__question">Вопрос №1: Почему интернет такой большой, а искомых решений так мало?</dt>
+                    <dd class="faq-page__answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</dd>
+        
+                    <dt class="faq-page__question">Вопрос №2: Вопрос Вселенной, Жизни и всего такого</dt>
+                    <dd class="faq-page__answer">42</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page__footer"> 
+        <div class="container">
+            <p class="footer__copywrite">© 2022 Институт космических и информационных технологий СФУ</p>
+        </div>
+    </footer> 
+</body>
+<!-- <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script> -->
+<script  rel="stylesheet" src="assets/js/main.js"></script> 
+<!-- <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script> -->
+</html>
