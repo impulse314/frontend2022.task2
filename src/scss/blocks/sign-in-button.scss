@@ -12,16 +12,8 @@
     font-weight: 400;
     font-size: 15px;
     color: #F5F5F5;
+
     @include media-xl-max{
-        display: none;
-    }
-    @include media-lg-max{
-        display: none;
-    }
-    @include media-md-max{
-        display: none;
-    }
-    @include media-sm-max{
         display: none;
     }
 }

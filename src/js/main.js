@@ -142,7 +142,7 @@ if(article_add__button_cancel){
   });
 }
 
-const faq = document.getElementsByClassName("faq-page__question"); //блин, или querySelector сюда бабахнуть
+const faq = document.querySelectorAll(".faq-page__question"); //блин, или querySelector сюда бабахнуть
 let i;
 for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {

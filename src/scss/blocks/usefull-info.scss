@@ -159,12 +159,7 @@
     border: 0;
     border-radius: 3px;
     background-color: rgb(204, 204, 204);
-    @include media-sm-max{
-        margin-top: 10px;
-    }
-    @include media-xl-max{
-        margin-top: 10px;
-    }
+
     @include media-lg-max{
         margin-top: 10px;
     }
