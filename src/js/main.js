@@ -126,8 +126,8 @@ if(article_add__button_create){
     articles.insertAdjacentHTML('beforeend', contentString);
     
     if(form){
-      faq_.style.display='block';
-      article_add__button.style.display = 'block';
+      faq_.style.display='flex';
+      article_add__button.style.display = 'flex';
       form.style.display = 'none';
       e.target.reset();
       };
