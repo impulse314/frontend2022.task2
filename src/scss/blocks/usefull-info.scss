@@ -10,11 +10,11 @@
         grid-row-gap: 10px;
         grid-column-gap: 0px;
      }
-     @include media-sm-max {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        grid-row-gap: 10px;
-        grid-column-gap: 0px;
-    }
+    //  @include media-sm-max {
+    //     grid-template-columns: repeat(1, minmax(0, 1fr));
+    //     grid-row-gap: 10px;
+    //     grid-column-gap: 0px;
+    // }
 }
 .usefull-info-left{
     grid-column: 1/2;
@@ -33,7 +33,7 @@
         padding: 20px;
     }
     @include media-sm-max{
-        grid-column: none;
+        // grid-column: none;
         padding: 15px;
     }
 }
@@ -54,7 +54,7 @@
         padding: 20px;
     }
     @include media-sm-max{
-        grid-column: none;
+        // grid-column: none;
         padding: 15px;
     }
 }
@@ -79,12 +79,12 @@
     @include media-lg-max{
         font-size: 14px;
     }
-    @include media-md-max{
-        font-size: 14px;
-    }
-    @include media-sm-max{
-        font-size: 14px;
-    }
+    // @include media-md-max{
+    //     font-size: 14px;
+    // }
+    // @include media-sm-max{
+    //     font-size: 14px;
+    // }
 }
 .usefull-info-right__title{
     font-weight: 700;
@@ -126,12 +126,12 @@
     @include media-lg-max{
         font-size: 14px;
     }
-    @include media-md-max{
-        font-size: 14px;
-    }
-    @include media-sm-max{
-        font-size: 14px;
-    }
+    // @include media-md-max{
+    //     font-size: 14px;
+    // }
+    // @include media-sm-max{
+    //     font-size: 14px;
+    // }
 }
 .usefull-info-left__search{
     display: flex;
@@ -141,17 +141,17 @@
     @include media-xl-max{
         flex-direction: column;
     }
-    @include media-lg-max{
-        flex-direction: column;
-    }
+    // @include media-lg-max{
+    //     flex-direction: column;
+    // }
     @include media-md-max{
 
         flex-direction: row;
     }
-    @include media-sm-max{
+    // @include media-sm-max{
 
-        flex-direction: column;
-    }
+    //     flex-direction: column;
+    // }
 }
 #category-name-button{
     width: 88px;

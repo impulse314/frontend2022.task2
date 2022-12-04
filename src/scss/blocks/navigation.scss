@@ -12,11 +12,11 @@
         align-items: center;
         justify-content: center;
     }
-    @include media-sm-max{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    // @include media-sm-max{
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
 }
 .navigation__item{
     padding: 12px;
@@ -66,10 +66,10 @@
         display: none;
         gap: 0px;
     }
-    @include media-sm-max{
-        display: none;
-        gap: 0px;
-    }
+    // @include media-sm-max{
+    //     display: none;
+    //     gap: 0px;
+    // }
 }
 
 
