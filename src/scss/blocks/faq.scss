@@ -32,32 +32,8 @@
                 margin-left: 25px;
                 padding-top: 5px;
             }
-            // &--active:after{
-            //     content: '\2796';
-            // }
-            &--active {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                font-size: 20px;
-                font-weight: 500;
-                background-color: #D9D9D9;
-                outline: none;
-                margin: auto;
-                padding-top: 19px;
-                padding-bottom: 19px;
-                padding-left: 32px;
-                margin-bottom: 30px;
-                border-radius: 6px;
-                &:after{
-                    content: '\2796';
-                    font-size: 13px;
-                    color: #777;
-                    float: right;
-                    margin-right: 25px;
-                    margin-left: 25px;
-                    padding-top: 5px;
-                }    
+            &--active:after{
+                content: '\2796';
             }
         }
 

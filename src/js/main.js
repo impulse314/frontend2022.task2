@@ -147,16 +147,12 @@ let i;
 for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {
       
-      if (this.classList.contains("faq-page__question")) {
-        this.classList.remove("faq-page__question")
+      if (this.classList.contains("faq-page__question--active")) {
+        this.classList.remove("faq-page__question--active");
+      }
+      else {
         this.classList.add("faq-page__question--active")
       }
-      else if (this.classList.contains("faq-page__question--active")) {
-        this.classList.remove("faq-page__question--active")
-        this.classList.add("faq-page__question")
-      }
-        // this.classList.toggle("--active");
-
         let body = this.nextElementSibling;
         if (body.style.display === "block") {
             body.style.display = "none";

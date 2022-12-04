@@ -6,19 +6,11 @@
     height: auto;
     
     @include media-lg-max {
-        // display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-row-gap: 10px;
      }
-    //  @include media-md-max {
-    //     display: grid;
-    //     grid-template-columns: repeat(2, minmax(0, 1fr));
-    //     grid-row-gap: 10px;
-    //  }
      @include media-sm-max {
-        // display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        // grid-row-gap: 10px;
     }
 }
 .article--list{
@@ -39,7 +31,6 @@
     object-fit: cover;
     height: 192px; 
     width: 500px;
-    //max-width: 500px; 
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -53,31 +44,16 @@
     @include media-xl-max{
         min-height: 400px;
     }
-    // @include media-lg-max{
-    //     min-height: 400px;
-    // }
     @include media-md-max{
         padding: 16px;
         min-height: 250px;
     }
     @include media-sm-max{
         padding: 14px;
-        // min-height: 250px;
     }
 }
 .article__content--list{
     min-height: 0px;
-    /*@include media-lg-max{
-        min-height: 300px;
-    }
-    @include media-md-max{
-        padding: 16px;
-        min-height: 250px;
-    }
-    @include media-sm-max{
-        padding: 14px;
-        min-height: 250px;
-    }*/
 }
 
 .article__title{
@@ -89,9 +65,6 @@
     @include media-lg-max{
         font-size: 18px;
     }
-    // @include media-md-max{
-    //     font-size: 16px;
-    // }
     @include media-sm-max{
         font-size: 16px;
     }
@@ -101,9 +74,6 @@
     font-size: 16px;
     color: #6B7280;
 
-    // @include media-md-max{
-    //     font-size: 14px;
-    // }
     @include media-sm-max{
         font-size: 14px;
     }
@@ -115,9 +85,6 @@
     @include media-md-max{
         font-size: 12px;
     }
-    // @include media-sm-max{
-    //     font-size: 12px;
-    // }
 }
 .article__wrapper{
     flex-grow: 1;
@@ -172,7 +139,6 @@
 #article-text-description{
     margin-top: 10px;
     margin-bottom: 35px;
-    //height: 128px;
     border-radius: 3px;
 }
 
