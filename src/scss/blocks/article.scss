@@ -31,8 +31,10 @@
     object-fit: cover;
     height: 192px; 
     width: 500px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 .article__content{
     display: flex;
@@ -95,8 +97,12 @@
     margin-top: 50px;
     align-items: center;
 }
+.article-add__button {
+    max-width: 300px;
+    width: 100%;
+}
 .article-add__button-add{
-    width: 403px;
+    width: 100%;
     height: 44px;
     background: #FCFFE7;
     border: 1px solid #000000;
