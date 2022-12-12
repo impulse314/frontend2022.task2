@@ -123,8 +123,10 @@
         flex-direction: column;
     }
     @include media-md-max{
-
         flex-direction: row;
+    }
+    @include media-sm-max{
+        flex-direction: column;
     }
 }
 #category-name-button{
