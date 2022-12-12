@@ -1,0 +1,19 @@
+.icons{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    @include media-lg-max{
+        display: none;
+    }
+}
+.icon__button{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.icon__button--active{
+    color: red;
+}
